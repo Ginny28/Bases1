@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDF93FC8-230E-2CD4-7071-56D81A8ED09E" name="AEROPUERTO">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>C09221DB-E29C-7C62-1BE3-66A266FF04B4</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AERO" id="BA8341AC-8732-3097-A30D-A78EAC5465FF">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>912A39F6-598A-94D4-826A-F88FC6DBAF8C</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="DF518018-F6C7-8297-D991-12594FE8ECAB">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>67B7475D-86E9-DEEB-C583-22681436F662</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="572C00B6-B0EF-DBA0-7A0E-5BE4CAF4263C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>CD023A99-EA2B-4EF1-E5E2-A97B382334AA</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="8CFF4A7A-6947-C850-C9A7-C67A255D357A">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>2ECE7627-AD4C-F388-B7A6-761EAC99AFED</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESPEGUE" id="441300D2-9109-0F47-57BE-AA3B5E131F5A">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>AC0197ED-B0DA-2CFF-B14B-51B018F7D81D</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATERRIZAJE" id="34517E7E-D2BE-5AE0-68A4-A8CF15F55059">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>1717AB03-ED48-08E4-6C3E-56D76C560F32</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89522C1D-D722-962B-A719-A666E4617D90" name="AEROPUERTO_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>27288DC5-DDF4-04FA-E627-4AD2295A460B</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA8341AC-8732-3097-A30D-A78EAC5465FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

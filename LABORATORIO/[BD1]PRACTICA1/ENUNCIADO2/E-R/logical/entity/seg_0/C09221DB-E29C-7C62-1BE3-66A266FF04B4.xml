@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C09221DB-E29C-7C62-1BE3-66A266FF04B4" name="AEROPUERTO">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:28:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AERO" id="912A39F6-598A-94D4-826A-F88FC6DBAF8C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:28:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="67B7475D-86E9-DEEB-C583-22681436F662">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:29:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIUDAD" id="CD023A99-EA2B-4EF1-E5E2-A97B382334AA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:29:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAIS" id="2ECE7627-AD4C-F388-B7A6-761EAC99AFED">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:30:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESPEGUE" id="AC0197ED-B0DA-2CFF-B14B-51B018F7D81D">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:30:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATERRIZAJE" id="1717AB03-ED48-08E4-6C3E-56D76C560F32">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:30:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27288DC5-DDF4-04FA-E627-4AD2295A460B" name="AEROPUERTO PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:29:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>912A39F6-598A-94D4-826A-F88FC6DBAF8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

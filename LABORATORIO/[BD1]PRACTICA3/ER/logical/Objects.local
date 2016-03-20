@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2E7C0D0F-1E06-D882-D8C7-0245184F047B" name="USER" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3F36F65E-2A20-28B5-C5E6-46A767D35CFA" name="CANCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="68C79C6C-A2BC-C6D0-AB96-B00E008EB818" name="REPRODUCCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A279911B-A1A0-1240-1E92-11C786144139" name="ARTISTA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="01F93682-8810-B128-30AB-34E8A0BE901F" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="18EEC3A9-6E1D-6B1D-B706-E7E8A9CD0418" name="Relation_1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7A0D6391-4219-B65E-4E20-FC467D903154" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8053D5CE-5C31-E58C-96A8-062B4CB74F4A" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9703E71D-511F-9ED1-3900-0B3137F92764" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99D50418-CB07-4BB9-D375-91350E14B6F8" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99E3AEB3-C01D-827E-C382-9EA81679D2E5" name="" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

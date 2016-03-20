@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="4BE106AF-8915-296C-4250-35C2BA52EE4F" name="AVION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="880D5A0C-7A47-E755-3940-F6ECEEEEE899" name="ESCALA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8E94E470-89F2-557B-87C0-25631FCC292C" name="PROGRAMA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C09221DB-E29C-7C62-1BE3-66A266FF04B4" name="AEROPUERTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C81B8B08-23C1-A194-70A3-A52A5A304640" name="AERO_PLANE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DAB6176A-411A-4ECE-EC6C-2F8009975C27" name="VUELO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2073BA59-277F-63D7-4909-F44D13C2744D" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6954A556-51F6-B8FC-26F6-F3BFD1A6EA9C" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="712F171A-A34B-C9FF-1B43-76F870AAB69E" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C02F38A7-2559-DEA6-758E-0FA01E34A382" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E54A8A77-CCF2-FC0B-C651-BA41B60F6B52" name="Relation_6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

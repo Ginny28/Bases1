@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="880D5A0C-7A47-E755-3940-F6ECEEEEE899" name="ESCALA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:37:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESORDEN" id="F31C86C0-C2B0-D065-B4DF-DEEE265DFF5F">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:37:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NO_ESCALA" id="9BC34268-2A97-B813-A619-8FCEADF57B90">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:38:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LUGAR" id="FEEB4723-3B99-0424-A42C-78E92AA63C95">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:38:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_VUELO" id="AC64CCC9-4502-9699-76B0-819201B4A176">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:39:34 UTC</createdTime>
+<generatorID>E54A8A77-CCF2-FC0B-C651-BA41B60F6B52</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<referedAttribute>46151F3D-070B-8AE8-2BC6-21559D5C8BB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1CD3301-D685-821A-3535-115F33B56110" name="ESCALA PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:38:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F31C86C0-C2B0-D065-B4DF-DEEE265DFF5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

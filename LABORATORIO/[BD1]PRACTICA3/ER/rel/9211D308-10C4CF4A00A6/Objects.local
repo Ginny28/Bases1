@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0607790C-454B-075B-9FDF-72C81B007959" name="REPRODUCCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="4214C813-41C1-F91B-06E6-88C6CE1A791B" name="ARTISTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="574848F9-42DF-6F86-92D3-5B7C41EA33B5" name="USER" seqName="seg_0"/>
+   <object objectType="Table" objectID="84697C0A-2D48-0BA1-0675-28F5707E4909" name="REPRODUCCIONv2" seqName="seg_0"/>
+   <object objectType="Table" objectID="CA43907A-6066-F0AA-9414-2BD739C3A4AF" name="ARTISTAv2" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB2CEB45-09CF-2529-7711-EF86094CAA75" name="CANCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="D08DC4D4-0380-A3BA-52C5-4F64760BAFC0" name="CANCIONv1" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1636ECB-B5CA-EF86-B974-8A01F2FFA9AA" name="USERv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="043A36FB-3585-437B-03B3-EBE4B09AED7B" name="CANCION_ARTISTA_FK" containerID="CB2CEB45-09CF-2529-7711-EF86094CAA75" refContainerID="CA43907A-6066-F0AA-9414-2BD739C3A4AF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21B29F74-2EF6-0615-4A80-42ED92F39374" name="REPRODUCCION_USER_FK" containerID="84697C0A-2D48-0BA1-0675-28F5707E4909" refContainerID="574848F9-42DF-6F86-92D3-5B7C41EA33B5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="43F37CD0-D370-3F3A-FE79-5EB4A19AD82E" name="REPRODUCCION_USER_FK" containerID="0607790C-454B-075B-9FDF-72C81B007959" refContainerID="D1636ECB-B5CA-EF86-B974-8A01F2FFA9AA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9903889F-0249-A615-4F87-D091F296E16D" name="REPRODUCCION_CANCION_FK" containerID="0607790C-454B-075B-9FDF-72C81B007959" refContainerID="D08DC4D4-0380-A3BA-52C5-4F64760BAFC0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C444255C-8DA4-6926-3E63-30A7AD31A706" name="REPRODUCCION_CANCION_FK" containerID="84697C0A-2D48-0BA1-0675-28F5707E4909" refContainerID="CB2CEB45-09CF-2529-7711-EF86094CAA75" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F69309B8-7463-5030-1A7E-43F53F38795B" name="CANCION_ARTISTA_FK" containerID="D08DC4D4-0380-A3BA-52C5-4F64760BAFC0" refContainerID="4214C813-41C1-F91B-06E6-88C6CE1A791B" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

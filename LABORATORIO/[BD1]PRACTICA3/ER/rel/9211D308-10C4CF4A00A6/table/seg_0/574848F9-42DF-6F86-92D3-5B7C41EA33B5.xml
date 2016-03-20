@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="574848F9-42DF-6F86-92D3-5B7C41EA33B5" name="USER">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>2E7C0D0F-1E06-D882-D8C7-0245184F047B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO" id="B7AF7041-B720-4EE5-86C1-78511D5F0211">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>101D3394-28FF-3C5E-607C-788DFEE2AD74</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASS" id="CDAAAB2B-C46D-AF3F-2FF6-0E339504D487">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>DB7E59F7-A60F-B928-62D7-D3F2EF75197C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9B3814BB-988E-78AF-F1B6-C354F894D1DE">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>89983BED-2448-769C-94E1-FADDC5D0E8B9</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH" id="9754E660-0CDA-A870-9D9C-549971974BE5">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>F467F249-CEC9-9FDB-50F6-774813532720</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="30AC6AFE-7A6E-E8BA-FCAE-99C23435104D">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>73D6312C-37E0-9D56-0625-92A876A3B0B9</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAIL" id="19958C0A-67D6-AEC4-E47C-3A141939E016">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>29CC8A4E-D4FB-51A0-D53E-7E37A2DF7129</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BADD7CB0-B4AE-FF7D-5A23-94C6986C1AB4" name="USER_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>DEC91B2A-5749-8735-3848-1E8F8E93BEC2</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7AF7041-B720-4EE5-86C1-78511D5F0211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

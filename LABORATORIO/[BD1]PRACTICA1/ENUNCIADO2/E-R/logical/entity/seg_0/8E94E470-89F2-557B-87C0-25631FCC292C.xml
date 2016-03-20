@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E94E470-89F2-557B-87C0-25631FCC292C" name="PROGRAMA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:33:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROGRAMA" id="9E7702D5-9DB3-4BD2-22D4-00EE2D230EB4">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:33:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LINEA" id="448ECF0D-6D80-8989-9884-5160120FFE8E">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:33:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LUGAR_DESPEGUE" id="8A2D8A77-DFB5-6970-C535-928278116DCA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:34:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LUGAR_ATERRIZAJE" id="32FE326D-1B22-49D3-2A11-C7EFE6CFCC69">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:34:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAS" id="69EBFCDE-A315-A8D5-AD82-67210F282830">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:34:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AERO" id="19C86899-7760-257D-06D2-6680C138ED9C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:35:33 UTC</createdTime>
+<generatorID>2073BA59-277F-63D7-4909-F44D13C2744D</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<referedAttribute>912A39F6-598A-94D4-826A-F88FC6DBAF8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B2DD6DA-E112-BCA4-2806-89732F5A418D" name="PROGRAMA PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:33:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<engineerTo>
+<item key="95A8DB22-61CD-9BE4-928F-9018EF9E1E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E7702D5-9DB3-4BD2-22D4-00EE2D230EB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

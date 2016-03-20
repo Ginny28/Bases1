@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER" id="BA3C3263-FA6C-389B-F0D2-306A4C48BF15" version="3.5">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 18:50:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BA3C3263-FA6C-389B-F0D2-306A4C48BF15</designId>
+</OSDM_Design>

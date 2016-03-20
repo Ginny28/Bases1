@@ -1,0 +1,22 @@
+
+CREATE TEMPORARY TABLE ARTIS
+(
+  NOMBRE VARCHAR(60)
+);
+
+
+INSERT INTO artis  (NOMBRE)  SELECT ARTISTA  FROM canciontemp WHERE duracion = to_char(0) order by ARTISTA  asc;
+
+
+
+SET SERVEROUTPUT ON
+DECLARE
+  CURSOR CANTORES  IS
+  SELECT NOMBRE FROM ARTIS;
+  nome VARCHAR2(50);
+BEGIN
+ FOR r_values  in CANTORES  loop
+  DBMS_OUTPUT.PUT_LINE(r_values.NOMBRE);
+  end loop;
+END;
+

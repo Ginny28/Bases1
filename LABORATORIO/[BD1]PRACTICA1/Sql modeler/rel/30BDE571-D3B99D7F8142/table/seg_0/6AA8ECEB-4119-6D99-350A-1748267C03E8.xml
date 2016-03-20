@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AA8ECEB-4119-6D99-350A-1748267C03E8" name="COTIZACION">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 04:55:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="104D373C-6F26-AF25-3FD0-8D4CC0C17B61">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 04:55:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_No_solicitud" id="ECF0C214-8EB6-DA5D-DFB9-5F1ABC49793C">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:21:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67F59CCE-23EB-64EB-467E-412F42553B1C" referredColumn="E5829AB3-09F5-535C-52C2-159769C3362F"/>
+</associations>
+</Column>
+<Column name="PROVEEDOR_Id" id="16D29067-BA7B-533A-D27E-29A59CBC66B6">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:21:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="582B40D1-7E9E-D9CD-8E9B-882427DF42E0" referredColumn="7D04399B-9B1A-271C-8D24-A1D4F499C493"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="809C3AA2-DF18-E56D-3FD2-755D39F18490" name="COTIZACION_PK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 04:55:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="104D373C-6F26-AF25-3FD0-8D4CC0C17B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEF2C56C-A1FF-69DA-A64B-78C1AD1815E8" name="COTIZACION_SOLICITUD_FK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:21:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF0C214-8EB6-DA5D-DFB9-5F1ABC49793C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A48620C-F6B1-FE10-D59C-7B42E9894523" name="COTIZACION_PROVEEDOR_FK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:21:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16D29067-BA7B-533A-D27E-29A59CBC66B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

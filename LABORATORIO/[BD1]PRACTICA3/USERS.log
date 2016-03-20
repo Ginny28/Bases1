@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Sáb Oct 17 15:03:02 2015
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Archivo de Control:   C:\Users\Public\Documents\USERS.ctl
+Archivo de Datos:      C:\Users\Public\Documents\USERS.csv
+  Archivo de Errores:     C:\Users\Public\Documents\USERS.bad
+  Desechar Archivo:  ninguno especificado
+ 
+ (Permitir todos los registros desechados)
+
+Número a cargar: ALL
+Número que omitir: 2
+Errores permitidos: 50
+Matriz de enlace:     64 filas, máximo de 256000 bytes
+Continuación:    ninguno especificado
+Ruta de acceso utilizada:      Convencional
+
+Tabla USUARIO, cargada de cada registro lógico.
+Opción INSERT activa para esta tabla: REPLACE
+
+   Nombre Columna                  Posición   Long  Term Entorno Tipo de Dato
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_USER                             FIRST     *   ,       CHARACTER            
+PASS                                 NEXT     *   ,       CHARACTER            
+NOMBRE                               NEXT     *   ,       CHARACTER            
+BIRTH                                NEXT     *   ,       CHARACTER            
+    Cadena SQL para la columna: "TO_DATE(:BIRTH, 'DD-MON-YYYY', 'NLS_DATE_LANGUAGE=ENGLISH')"
+PAIS                                 NEXT     *   ,       CHARACTER            
+MAIL                                 NEXT     *   ,       CHARACTER            
+
+
+Tabla USUARIO:
+  120 Filas se ha cargado correctamente.
+  0 Filas no cargada debido a errores de datos.
+  0 Filas no cargada porque todas las cláusulas WHEN han fallado.
+  0 Filas no cargada porque todos los campos eran nulos.
+
+
+Espacio asignado a matriz de enlace:            99072 bytes (64 filas)
+Bytes de buffer de lectura: 1048576
+
+Total de registros lógicos ignorados:          2
+Total de registros lógicos leídos:         120
+Total de registros lógicos rechazados:         0
+Total de registros lógicos desechados:        0
+
+La ejecución empezó en Sáb Oct 17 15:03:02 2015
+La ejecución terminó en Sáb Oct 17 15:03:02 2015
+
+Tiempo transcurrido:     00:00:00.23
+Tiempo de CPU:         00:00:00.05

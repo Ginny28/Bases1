@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="367DF7C9-DCF6-77DE-7E54-98F597F8DA27" name="VUELO">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>DAB6176A-411A-4ECE-EC6C-2F8009975C27</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VUELO" id="59E595D7-D584-482F-93D5-996147F0608E">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>46151F3D-070B-8AE8-2BC6-21559D5C8BB1</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="844D29CF-C893-A111-4040-A0F6200A9E29">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>2049AEB7-CF01-112E-2227-A7A8E5E1F19C</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAZA_VACIA" id="845B43EF-E4A1-F440-6695-265011F96C02">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>8CF67601-A81D-8254-1B92-C0187BB50080</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMA_ID_PROGRAMA" id="8823486B-3EBD-911E-7082-63F0530D8729">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>820C92A6-88E7-0722-750A-20FA2B50EEC8</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D81911A-9381-951D-D5D6-4A7A446BFDDE" referredColumn="122F11D4-0AA2-76D8-A306-D10F02D2FFC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A74AB4C-05DD-869C-6C91-87856F5AC965" name="VUELO_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>4E7A1105-C101-7988-25E1-297050ECCEF1</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59E595D7-D584-482F-93D5-996147F0608E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68B94A28-EC37-B838-F792-0EDD5B2687C8" name="VUELO_PROGRAMA_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>C02F38A7-2559-DEA6-758E-0FA01E34A382</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8823486B-3EBD-911E-7082-63F0530D8729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

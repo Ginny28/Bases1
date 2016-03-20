@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D787BE-849F-5BC0-C223-B02833454D0E" name="DET_ITEM_ENTREGADO">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:12:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cantidad" id="08D3BD0C-CB60-90C5-1AFA-7D61680C9010">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:13:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALIDA_No_salida" id="92AC2C61-123F-5A0D-4034-AE9D17672CB1">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:42:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_Id" id="6F56BB86-0BC8-170A-8D61-4D2D2152CF3A">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:42:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9ABA78F-CF36-1115-AD67-309BA1B3E8A2" referredColumn="4921B573-03B2-C3C9-662B-AD4F56D39313"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B33B81B-1A70-1F5C-D4CD-4A949C3AF508" name="DET_ITEM_ENTREGADO_PK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:13:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D3BD0C-CB60-90C5-1AFA-7D61680C9010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C426A907-B100-B472-5B0C-AB2F7FD8475B" name="DET_ITEM_ENTREGADO_ITEM_FK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:42:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F56BB86-0BC8-170A-8D61-4D2D2152CF3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

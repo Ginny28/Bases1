@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="367DF7C9-DCF6-77DE-7E54-98F597F8DA27" name="VUELO" seqName="seg_0"/>
+   <object objectType="Table" objectID="8A904611-93CD-1B70-C745-FCFC3B36393A" name="ESCALA" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC1708A4-61E4-CEA0-6560-3B4E4326899E" name="AVION" seqName="seg_0"/>
+   <object objectType="Table" objectID="CCC6B0A3-9E0A-A2EA-117A-6936F806E51F" name="PROGRAMA" seqName="seg_0"/>
+   <object objectType="Table" objectID="DDF93FC8-230E-2CD4-7071-56D81A8ED09E" name="AEROPUERTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1BA84EB-2479-68C4-00BC-21EDCC675F23" name="AERO_PLANE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2207EF5D-1170-1F7C-3E74-8036A6F51617" name="AERO_PLANE_AEROPUERTO_FK" containerID="F1BA84EB-2479-68C4-00BC-21EDCC675F23" refContainerID="DDF93FC8-230E-2CD4-7071-56D81A8ED09E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2DCCB0C6-36CF-13CD-EC1B-BED6CE18A532" name="AERO_PLANE_AVION_FK" containerID="F1BA84EB-2479-68C4-00BC-21EDCC675F23" refContainerID="CC1708A4-61E4-CEA0-6560-3B4E4326899E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4A12834F-78C0-E72A-2D85-D9D16F77FA62" name="ESCALA_VUELO_FK" containerID="8A904611-93CD-1B70-C745-FCFC3B36393A" refContainerID="367DF7C9-DCF6-77DE-7E54-98F597F8DA27" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7D81911A-9381-951D-D5D6-4A7A446BFDDE" name="VUELO_PROGRAMA_FK" containerID="367DF7C9-DCF6-77DE-7E54-98F597F8DA27" refContainerID="CCC6B0A3-9E0A-A2EA-117A-6936F806E51F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8999CF48-51C7-F12B-70FD-2E1147B288F7" name="PROGRAMA_AEROPUERTO_FK" containerID="CCC6B0A3-9E0A-A2EA-117A-6936F806E51F" refContainerID="DDF93FC8-230E-2CD4-7071-56D81A8ED09E" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

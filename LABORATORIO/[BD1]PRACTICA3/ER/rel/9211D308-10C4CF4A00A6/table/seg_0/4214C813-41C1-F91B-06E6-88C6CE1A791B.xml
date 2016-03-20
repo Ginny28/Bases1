@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4214C813-41C1-F91B-06E6-88C6CE1A791B" name="ARTISTA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:10:00 UTC</createdTime>
+<generatorID>A279911B-A1A0-1240-1E92-11C786144139</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="C83BF4C5-777B-1017-4B92-39F81114FC38">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:10:00 UTC</createdTime>
+<generatorID>35715DEC-AEF9-A29B-3B3B-320AF07192B4</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>105</dataTypeSize>
+<ownDataTypeParameters>105,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="6C24FD88-09A4-F992-BD6D-ACFF3B638E17">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:10:00 UTC</createdTime>
+<generatorID>8BD321B2-B4FB-F45A-AB70-DA66102616E7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AÑOS" id="2E8B3B84-464A-D4AB-79E0-F6738544D38B">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:10:00 UTC</createdTime>
+<generatorID>3F8EC664-4754-BB54-78AD-86C261B2B524</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AACB1A35-1BD2-7714-560C-6E24737460B0" name="ARTISTA_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:10:00 UTC</createdTime>
+<generatorID>E2AF0F09-547D-AAB6-9726-93672F1F5A49</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C83BF4C5-777B-1017-4B92-39F81114FC38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A12834F-78C0-E72A-2D85-D9D16F77FA62" containerWithKeyObject="8A904611-93CD-1B70-C745-FCFC3B36393A" localFKIndex="9B8B932F-DF08-BC4A-F0DF-E5EDC1DB1A0A" name="ESCALA_VUELO_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>E54A8A77-CCF2-FC0B-C651-BA41B60F6B52</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>367DF7C9-DCF6-77DE-7E54-98F597F8DA27</referredTableID>
+<keyObject>8A74AB4C-05DD-869C-6C91-87856F5AC965</keyObject>
+<referredKeyID>8A74AB4C-05DD-869C-6C91-87856F5AC965</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

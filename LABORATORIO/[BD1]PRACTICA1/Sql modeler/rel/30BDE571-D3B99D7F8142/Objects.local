@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="E508E84A-A73C-A8A1-7B50-F8082FD1FE50" name="CENTRO_COSTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6AA8ECEB-4119-6D99-350A-1748267C03E8" name="COTIZACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="5F33BF28-6969-FDEF-6225-C334893374FF" name="DET_FACT" seqName="seg_0"/>
+   <object objectType="Table" objectID="32D787BE-849F-5BC0-C223-B02833454D0E" name="DET_ITEM_ENTREGADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="CFCCDCF0-9D9E-8DE0-F211-965DE1B8E53B" name="DET_ITEM_REC" seqName="seg_0"/>
+   <object objectType="Table" objectID="C903C7BB-002D-AEFB-8917-AA23382E08D7" name="DET_ORDEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="570BABF8-39C7-6745-F236-D85158177924" name="DET_SOLICITUD" seqName="seg_0"/>
+   <object objectType="Table" objectID="5A272D24-3949-AA3B-7464-A4E9E5883956" name="EMPLEADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0D80D153-E545-0FEC-08A2-1A1F479B132C" name="ENTRADA" seqName="seg_0"/>
+   <object objectType="Table" objectID="0C3EBE51-B027-0733-B9F4-26DEF502E1F6" name="FACTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="56AAA7EB-F665-C4FF-A036-8C751639616A" name="ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="35604168-C3DA-F1B9-AC44-4C82354B7E5A" name="ORDEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="89ECC94C-4C34-F1C1-0BF6-B481EDC072F9" name="PROVEEDOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="844712E4-BA93-3D1F-9BF1-82797502CEDA" name="SALIDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="B1DEA5F2-5EC8-786F-3DF7-AD36BB7C000A" name="SOLICITUD" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="582B40D1-7E9E-D9CD-8E9B-882427DF42E0" name="COTIZACION_PROVEEDOR_FK" seqName="seg_0" containerID="6AA8ECEB-4119-6D99-350A-1748267C03E8" refContainerID="89ECC94C-4C34-F1C1-0BF6-B481EDC072F9"/>
+   <object objectType="FKIndexAssociation" objectID="67F59CCE-23EB-64EB-467E-412F42553B1C" name="COTIZACION_SOLICITUD_FK" seqName="seg_0" containerID="6AA8ECEB-4119-6D99-350A-1748267C03E8" refContainerID="B1DEA5F2-5EC8-786F-3DF7-AD36BB7C000A"/>
+   <object objectType="FKIndexAssociation" objectID="0E79CA0C-42E7-DA25-4536-6878E6F1CE57" name="DET_FACT_FACTURA_FK" seqName="seg_0" containerID="5F33BF28-6969-FDEF-6225-C334893374FF" refContainerID="0C3EBE51-B027-0733-B9F4-26DEF502E1F6"/>
+   <object objectType="FKIndexAssociation" objectID="B881DBF9-F414-7F0F-AF04-117BCDE5F3E8" name="DET_FACT_ITEM_FK" seqName="seg_0" containerID="5F33BF28-6969-FDEF-6225-C334893374FF" refContainerID="56AAA7EB-F665-C4FF-A036-8C751639616A"/>
+   <object objectType="FKIndexAssociation" objectID="7F443B2D-A341-4C14-9578-7AB7E1C05555" name="DET_ITEM_REC_ENTRADA_FK" seqName="seg_0" containerID="CFCCDCF0-9D9E-8DE0-F211-965DE1B8E53B" refContainerID="0D80D153-E545-0FEC-08A2-1A1F479B132C"/>
+   <object objectType="FKIndexAssociation" objectID="BFE2B360-7453-CE3B-C06F-C9038FBF9982" name="DET_ITEM_REC_ITEM_FK" seqName="seg_0" containerID="CFCCDCF0-9D9E-8DE0-F211-965DE1B8E53B" refContainerID="56AAA7EB-F665-C4FF-A036-8C751639616A"/>
+   <object objectType="FKIndexAssociation" objectID="E5D6564E-F006-6AA2-D623-18C3480AB4EC" name="DET_ORDEN_ITEM_FK" seqName="seg_0" containerID="C903C7BB-002D-AEFB-8917-AA23382E08D7" refContainerID="56AAA7EB-F665-C4FF-A036-8C751639616A"/>
+   <object objectType="FKIndexAssociation" objectID="55C8D103-C86A-07B3-01A8-A33E46C9EE9B" name="DET_ORDEN_ORDEN_FK" seqName="seg_0" containerID="C903C7BB-002D-AEFB-8917-AA23382E08D7" refContainerID="35604168-C3DA-F1B9-AC44-4C82354B7E5A"/>
+   <object objectType="FKIndexAssociation" objectID="4CE156BC-A589-5391-4C12-9143AE2B7540" name="DET_SOLICITUD_ITEM_FK" seqName="seg_0" containerID="570BABF8-39C7-6745-F236-D85158177924" refContainerID="56AAA7EB-F665-C4FF-A036-8C751639616A"/>
+   <object objectType="FKIndexAssociation" objectID="894E3B8C-E3B6-7853-2223-60EBAD8DCAEB" name="DET_SOLICITUD_SOLICITUD_FK" seqName="seg_0" containerID="570BABF8-39C7-6745-F236-D85158177924" refContainerID="B1DEA5F2-5EC8-786F-3DF7-AD36BB7C000A"/>
+   <object objectType="FKIndexAssociation" objectID="C623F223-F094-5E53-4CFE-0DB27205EAE8" name="ENTRADA_FACTURA_FK" seqName="seg_0" containerID="0D80D153-E545-0FEC-08A2-1A1F479B132C" refContainerID="0C3EBE51-B027-0733-B9F4-26DEF502E1F6"/>
+   <object objectType="FKIndexAssociation" objectID="FACA5CAA-DADD-179E-7EC1-1763424D4AE1" name="ENTRADA_PROVEEDOR_FK" seqName="seg_0" containerID="0D80D153-E545-0FEC-08A2-1A1F479B132C" refContainerID="89ECC94C-4C34-F1C1-0BF6-B481EDC072F9"/>
+   <object objectType="FKIndexAssociation" objectID="DA69319C-3512-C891-5D15-EB5F8ABCE5E0" name="FACTURA_PROVEEDOR_FK" seqName="seg_0" containerID="0C3EBE51-B027-0733-B9F4-26DEF502E1F6" refContainerID="89ECC94C-4C34-F1C1-0BF6-B481EDC072F9"/>
+   <object objectType="FKIndexAssociation" objectID="A9ABA78F-CF36-1115-AD67-309BA1B3E8A2" name="DET_ITEM_ENTREGADO_ITEM_FK" seqName="seg_0" containerID="32D787BE-849F-5BC0-C223-B02833454D0E" refContainerID="56AAA7EB-F665-C4FF-A036-8C751639616A"/>
+   <object objectType="FKIndexAssociation" objectID="118F10C9-04D3-BA3E-C470-EE3B3EE4EA5D" name="SALIDA_EMPLEADO_FK" seqName="seg_0" containerID="844712E4-BA93-3D1F-9BF1-82797502CEDA" refContainerID="5A272D24-3949-AA3B-7464-A4E9E5883956"/>
+   <object objectType="FKIndexAssociation" objectID="ADEA1B50-3080-B693-013B-FD9608D86465" name="SOLICITUD_CENTRO_COSTOS_FK" seqName="seg_0" containerID="B1DEA5F2-5EC8-786F-3DF7-AD36BB7C000A" refContainerID="E508E84A-A73C-A8A1-7B50-F8082FD1FE50"/>
+   <object objectType="FKIndexAssociation" objectID="88485C4E-2F47-0F8E-50C9-756404A903A5" name="SOLICITUD_EMPLEADO_FK" seqName="seg_0" containerID="B1DEA5F2-5EC8-786F-3DF7-AD36BB7C000A" refContainerID="5A272D24-3949-AA3B-7464-A4E9E5883956"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

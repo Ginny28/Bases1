@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1BA84EB-2479-68C4-00BC-21EDCC675F23" name="AERO_PLANE">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>C81B8B08-23C1-A194-70A3-A52A5A304640</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AEROPUERTO_ID_AERO" id="73495B68-A465-ACA8-398A-B61D0F400B0C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>24CB8F27-B58C-4A81-12DE-50FDF8DE89A6</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2207EF5D-1170-1F7C-3E74-8036A6F51617" referredColumn="BA8341AC-8732-3097-A30D-A78EAC5465FF"/>
+</associations>
+</Column>
+<Column name="AVION_ID_AVION" id="D2E8C807-23C6-3061-3E33-E8CAB2720E09">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>04E74D7D-A716-AA12-B94F-A0CAE1B253E6</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCCB0C6-36CF-13CD-EC1B-BED6CE18A532" referredColumn="41381057-2185-9B8F-4B39-0C210A882CC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20FFD35F-1D5A-8CBA-82AF-3A7D3643C7FD" name="AERO_PLANE_AEROPUERTO_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>6954A556-51F6-B8FC-26F6-F3BFD1A6EA9C</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73495B68-A465-ACA8-398A-B61D0F400B0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EE71AA-5045-4B37-7AAD-F16668BBA221" name="AERO_PLANE_AVION_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-09-07 21:42:29 UTC</createdTime>
+<generatorID>712F171A-A34B-C9FF-1B43-76F870AAB69E</generatorID>
+<ownerDesignName>E-R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E8C807-23C6-3061-3E33-E8CAB2720E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB2CEB45-09CF-2529-7711-EF86094CAA75" name="CANCION">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>3F36F65E-2A20-28B5-C5E6-46A767D35CFA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDSONG" id="1B216F6F-7388-481B-A66D-7B15B45FA377">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>E4119B78-803C-52D2-68ED-84687AC73A6E</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="730B9DEB-9805-9FE3-BA89-D8237380AE60">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>C33A95F0-E6AD-19E6-3F1B-BD9917BE9C34</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALBUM" id="D94EA733-07AC-61FA-43F1-FDC96267991C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>D3E62BA3-6CBE-E2B1-E624-3CA9D0ED9C9A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AÑO_PUB" id="71130DE0-6F6D-2EA5-C423-B60CCA05A5C2">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>8310C0DC-1BEC-5925-F70E-9E89B6E39E56</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="DC261DC6-3169-1CF9-E305-A0B177CED77E">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>DCE9D0B1-EC12-100A-E254-EE835CA222F7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="2DC1B778-A854-754C-CD70-35E07F8F284B">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>9DC37EC7-72B1-8B66-97EB-38D9D7A7646F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LYRICS" id="02C4FDF2-5E06-7FEB-2F5A-FE02B9D40624">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>E03A005F-AD24-7D8F-C158-5B7656D1F916</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATING" id="D5A68774-990B-4478-BB62-B37BB6F9F758">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>0A50B433-0D12-715E-8BB4-80747CF2B5F1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTISTA_NOMBRE" id="A53BE928-A9C2-2869-893D-E92220C28BA7">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>5D175296-1ECD-6808-E523-CC4FFF63C67D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>105</dataTypeSize>
+<ownDataTypeParameters>105,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="043A36FB-3585-437B-03B3-EBE4B09AED7B" referredColumn="A5CE21C9-0EA1-B2B1-29F4-83474B4E0446"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA3F21C6-F7EF-C055-5D62-F44623E28086" name="CANCION_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>4F7C65C9-08C8-4CD5-A2C0-01FF792FA5E4</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B216F6F-7388-481B-A66D-7B15B45FA377"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A23EB9E7-7BF7-CE68-B58B-4D7706F05E35" name="CANCION_ARTISTA_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>7A0D6391-4219-B65E-4E20-FC467D903154</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A53BE928-A9C2-2869-893D-E92220C28BA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

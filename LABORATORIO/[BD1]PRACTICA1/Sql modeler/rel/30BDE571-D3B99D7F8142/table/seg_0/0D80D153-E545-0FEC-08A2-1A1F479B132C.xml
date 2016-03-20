@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D80D153-E545-0FEC-08A2-1A1F479B132C" name="ENTRADA">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:06:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No_entrada" id="9A903D98-BF35-FAFD-5786-43194329F4F1">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:11:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="BBA4F88B-3BB2-ECA9-8776-B62174BC84A4">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:11:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_bienes" id="D8C2BB8D-1B65-86E2-48AC-4239A1FB5F76">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:11:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_total" id="1A7EB39E-ABC8-A62B-C188-826E5C3571F0">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:11:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_Id" id="982703A0-613C-8F0B-8C33-9DB1F5BB15DE">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:26:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FACA5CAA-DADD-179E-7EC1-1763424D4AE1" referredColumn="7D04399B-9B1A-271C-8D24-A1D4F499C493"/>
+</associations>
+</Column>
+<Column name="FACTURA_No_factura" id="A3C9DC84-63AA-408F-A8AB-34A90F65DF2D">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:31:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C623F223-F094-5E53-4CFE-0DB27205EAE8" referredColumn="6B548DDE-F0B9-F2DA-85F3-6E937A387113"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E85239D1-4A5E-3F23-3693-B0C05EA5F00D" name="ENTRADA_PK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:11:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A903D98-BF35-FAFD-5786-43194329F4F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AE60750-0573-7180-115F-FFC0D48D643E" name="ENTRADA_PROVEEDOR_FK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:26:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="982703A0-613C-8F0B-8C33-9DB1F5BB15DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C074239-000E-B8FA-AAC8-1539118E2DAD" name="ENTRADA_FACTURA_FK">
+<createdBy>FG250</createdBy>
+<createdTime>2015-09-08 05:31:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>practica1 bases1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3C9DC84-63AA-408F-A8AB-34A90F65DF2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

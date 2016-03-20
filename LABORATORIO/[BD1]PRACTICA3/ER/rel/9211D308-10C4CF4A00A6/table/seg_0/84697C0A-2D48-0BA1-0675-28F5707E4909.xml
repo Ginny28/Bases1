@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84697C0A-2D48-0BA1-0675-28F5707E4909" name="REPRODUCCIONv2">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>68C79C6C-A2BC-C6D0-AB96-B00E008EB818</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REP" id="676C21FA-B9FE-8B3B-4C9A-B18B185E6755">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>226469FA-942F-620F-7D8E-83753F4599C1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="6434040B-BD0B-8B11-9587-D757E61D5F60">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>5B24B7F0-182F-4113-366F-2F65A00D386F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="2AA2E9C7-F37B-60F8-2CB8-6B3118F039F9">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>701887AA-A884-2F0B-B12A-3F6F27C59FD2</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_USUARIO" id="288FEB37-9701-EEB0-07E1-1A853C905D4D">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>70114232-D9D6-7CE7-4668-1AA22F46AF84</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21B29F74-2EF6-0615-4A80-42ED92F39374" referredColumn="B7AF7041-B720-4EE5-86C1-78511D5F0211"/>
+</associations>
+</Column>
+<Column name="CANCION_IDSONG" id="9A2BBD60-E6FE-954B-A70F-1AAF14E84DFE">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>A224F594-2703-64CE-47CE-DF15E2336E62</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C444255C-8DA4-6926-3E63-30A7AD31A706" referredColumn="1B216F6F-7388-481B-A66D-7B15B45FA377"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20DEBDF2-9E56-CE52-3C90-3582BED6D411" name="REPRODUCCION_PKv1">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>DB56020A-A339-125E-925E-B87195CD8D02</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676C21FA-B9FE-8B3B-4C9A-B18B185E6755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7FAF1D4-C92D-3BE0-C47F-FCBFCA2E209C" name="REPRODUCCION_CANCION_FKv1">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>8053D5CE-5C31-E58C-96A8-062B4CB74F4A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A2BBD60-E6FE-954B-A70F-1AAF14E84DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4D574C7-586B-C75D-EF4D-24D4E833B17E" name="REPRODUCCION_USER_FKv1">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-13 19:19:02 UTC</createdTime>
+<generatorID>9703E71D-511F-9ED1-3900-0B3137F92764</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="288FEB37-9701-EEB0-07E1-1A853C905D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
