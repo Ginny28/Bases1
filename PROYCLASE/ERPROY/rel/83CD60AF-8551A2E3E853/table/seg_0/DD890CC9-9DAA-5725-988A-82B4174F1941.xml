@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD890CC9-9DAA-5725-988A-82B4174F1941" name="CATEGORIA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>01287FE1-ED6D-C600-2027-50A9D7235CD7</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category" id="AB425F09-3A8D-A6BE-8DE5-BE72CD4BD908">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>5A921C9D-9650-7625-8D82-11F055FA26CF</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoryname" id="CD276589-5842-3BB5-3CD5-648515A6A3E6">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>47D3F959-63E2-3C73-347A-C6576CBFBADE</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB9C54AB-DB9F-69D5-62B5-AC9EDB07038D" name="CATEGORIA_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>BC92112F-BBB6-20D9-D65E-7060990067D6</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB425F09-3A8D-A6BE-8DE5-BE72CD4BD908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

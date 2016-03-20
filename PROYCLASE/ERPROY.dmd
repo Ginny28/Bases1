@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERPROY" id="FD657722-A7DE-8EDA-629D-FF63A199072B" version="3.5">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:10:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FD657722-A7DE-8EDA-629D-FF63A199072B</designId>
+</OSDM_Design>

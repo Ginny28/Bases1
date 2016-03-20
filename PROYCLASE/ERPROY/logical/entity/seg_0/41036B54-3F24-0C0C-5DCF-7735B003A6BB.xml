@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41036B54-3F24-0C0C-5DCF-7735B003A6BB" name="VENDEDOR">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:11:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vendor_id" id="71C24E71-8E17-7EE5-2581-04F70611A48C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vendor_name" id="0C4C90AB-309C-1EDD-C149-5245F08229AE">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA1504F3-EC45-407E-53CD-B63CB544F127" name="VENDEDOR PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71C24E71-8E17-7EE5-2581-04F70611A48C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

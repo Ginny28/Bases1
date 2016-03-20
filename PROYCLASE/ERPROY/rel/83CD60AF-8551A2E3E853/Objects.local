@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="2AAD7A28-D1F4-7421-CA28-CC2BC7BE18ED" name="ORDEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="49D092A8-2088-27E2-695F-D1F8D5A9A2BD" name="VENDEDOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="99273C77-0CFF-4036-C7ED-959CC4B536F5" name="PAIS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B193DC8D-E5C9-C9DA-6F8F-C54161432EFB" name="CLIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD890CC9-9DAA-5725-988A-82B4174F1941" name="CATEGORIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="E309CE0E-3757-3238-0A63-F8AEC2780C45" name="PRODUCTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="F2097923-2ED4-304B-4748-CAF73356BDF6" name="CLIENTE_HISTORIAL" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0D72B4A5-F07E-69B9-BE1B-4B34BA4B763E" name="CLIENTE_PAIS_FK" containerID="B193DC8D-E5C9-C9DA-6F8F-C54161432EFB" refContainerID="99273C77-0CFF-4036-C7ED-959CC4B536F5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="43607554-9689-E434-3441-3C31E58CDF71" name="CLIENTE_HISTORIAL_ORDEN_FK" containerID="F2097923-2ED4-304B-4748-CAF73356BDF6" refContainerID="2AAD7A28-D1F4-7421-CA28-CC2BC7BE18ED" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5235E2F7-9957-280D-1FDE-227C08E2810D" name="CLIENTE_HISTORIAL_CLIENTE_FK" containerID="F2097923-2ED4-304B-4748-CAF73356BDF6" refContainerID="B193DC8D-E5C9-C9DA-6F8F-C54161432EFB" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="533BCD13-1C83-463A-4C73-62977B17D9B1" name="CLIENTE_HISTORIAL_PRODUCTO_FK" containerID="F2097923-2ED4-304B-4748-CAF73356BDF6" refContainerID="E309CE0E-3757-3238-0A63-F8AEC2780C45" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AC8E4D37-061F-4B68-F66F-B3DD072C84CB" name="ORDEN_PRODUCTO_FK" containerID="2AAD7A28-D1F4-7421-CA28-CC2BC7BE18ED" refContainerID="E309CE0E-3757-3238-0A63-F8AEC2780C45" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E3C6CD14-1E7B-4A35-A4D4-F323DD7E6BF5" name="ORDEN_VENDEDOR_FK" containerID="2AAD7A28-D1F4-7421-CA28-CC2BC7BE18ED" refContainerID="49D092A8-2088-27E2-695F-D1F8D5A9A2BD" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EC33B720-3197-6FA2-FFE5-915A31A80D00" name="PRODUCTO_CATEGORIA_FK" containerID="E309CE0E-3757-3238-0A63-F8AEC2780C45" refContainerID="DD890CC9-9DAA-5725-988A-82B4174F1941" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FBD1DC8B-3CC2-1CCA-DA1C-C445D9823C26" name="ORDEN_CLIENTE_FK" containerID="2AAD7A28-D1F4-7421-CA28-CC2BC7BE18ED" refContainerID="B193DC8D-E5C9-C9DA-6F8F-C54161432EFB" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

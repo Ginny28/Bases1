@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23DA3184-26E5-8B7C-8793-AFBDAFB8895B" name="CLIENTE_HISTORIAL">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cli_hist_id" id="09AEC5D8-20E8-7245-BD18-331F59E4B051">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:35:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customerid" id="73757E8E-BB68-0104-0946-C6231DD9B105">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:36:13 UTC</createdTime>
+<generatorID>730EAEBB-D740-9E8B-817F-5D6B7F878066</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>175173FC-3E80-2BF8-0829-DB577E757B40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_id" id="A74269B6-E478-12F2-D5CE-174DB04D04A3">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:37:51 UTC</createdTime>
+<generatorID>465BB1D8-3D20-7CE2-01C1-95AD9DF6FC07</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>51398034-9B67-7AC3-1013-F943AF0AC275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderlineid" id="C346ED01-8660-0858-233E-ABC857098F7C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:01:38 UTC</createdTime>
+<generatorID>84555088-427D-96B4-70A7-CC6D8986FB5C</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>599B8331-1310-80BF-90DF-CFBB8431C9ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderid" id="A10EC892-2EA9-424C-3147-291AB6170E64">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:01:38 UTC</createdTime>
+<generatorID>84555088-427D-96B4-70A7-CC6D8986FB5C</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>86652F69-D45F-D17C-D522-CD13488D285C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8E19102-6E95-BD55-B81E-C95519FFA728" name="ORDEN PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:35:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09AEC5D8-20E8-7245-BD18-331F59E4B051</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

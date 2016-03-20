@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01287FE1-ED6D-C600-2027-50A9D7235CD7" name="CATEGORIA">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="category" id="5A921C9D-9650-7625-8D82-11F055FA26CF">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:15:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoryname" id="47D3F959-63E2-3C73-347A-C6576CBFBADE">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:15:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC92112F-BBB6-20D9-D65E-7060990067D6" name="CATEGORIA PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:15:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A921C9D-9650-7625-8D82-11F055FA26CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

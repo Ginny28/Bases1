@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2097923-2ED4-304B-4748-CAF73356BDF6" name="CLIENTE_HISTORIAL">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>23DA3184-26E5-8B7C-8793-AFBDAFB8895B</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cli_hist_id" id="D0BC22E8-89E4-1A73-AFC4-D6F086AD5197">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>09AEC5D8-20E8-7245-BD18-331F59E4B051</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_customerid" id="3C2D0FE3-D6D0-5604-6DBD-087429DBF650">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>73757E8E-BB68-0104-0946-C6231DD9B105</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5235E2F7-9957-280D-1FDE-227C08E2810D" referredColumn="F1F13244-3EAF-5EDB-0A63-3C8E2BB0172F"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_prod_id" id="B11D98B0-7BEF-DF86-2670-C7EE06030967">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>A74269B6-E478-12F2-D5CE-174DB04D04A3</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533BCD13-1C83-463A-4C73-62977B17D9B1" referredColumn="A30B634A-D198-C04A-5341-16D8641F787A"/>
+</associations>
+</Column>
+<Column name="ORDEN_orderlineid" id="1AE67114-8AA5-F4A4-61CE-B6DEBE59F203">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>C346ED01-8660-0858-233E-ABC857098F7C</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43607554-9689-E434-3441-3C31E58CDF71" referredColumn="FBA42F70-2499-DB51-D784-0491C80008B1"/>
+</associations>
+</Column>
+<Column name="ORDEN_orderid" id="1D66BB14-87F2-B5DA-B23A-5A44ED576131">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>A10EC892-2EA9-424C-3147-291AB6170E64</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43607554-9689-E434-3441-3C31E58CDF71" referredColumn="BD573B0F-DD8C-F462-35D3-366C3760AEA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EBFA256-DEEA-6959-A34B-E9DECE7E9503" name="CLIENTE_HISTORIAL_PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>B8E19102-6E95-BD55-B81E-C95519FFA728</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0BC22E8-89E4-1A73-AFC4-D6F086AD5197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B97B3142-0E42-464A-795A-03528865247E" name="CLIENTE_HISTORIAL_PRODUCTO_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>465BB1D8-3D20-7CE2-01C1-95AD9DF6FC07</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B11D98B0-7BEF-DF86-2670-C7EE06030967"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2C3FD1-1A26-4B39-39AB-E032543E9E74" name="CLIENTE_HISTORIAL_ORDEN_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>84555088-427D-96B4-70A7-CC6D8986FB5C</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE67114-8AA5-F4A4-61CE-B6DEBE59F203"/>
+<colUsage columnID="1D66BB14-87F2-B5DA-B23A-5A44ED576131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FCDD272-86BB-495A-40A5-C2C3963D64B2" name="CLIENTE_HISTORIAL_CLIENTE_FK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:08:53 UTC</createdTime>
+<generatorID>730EAEBB-D740-9E8B-817F-5D6B7F878066</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2D0FE3-D6D0-5604-6DBD-087429DBF650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

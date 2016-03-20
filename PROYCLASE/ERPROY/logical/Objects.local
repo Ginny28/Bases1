@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="01287FE1-ED6D-C600-2027-50A9D7235CD7" name="CATEGORIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1B41AC8A-0222-9DF2-D58A-2FD65A4E623B" name="PRODUCTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="23DA3184-26E5-8B7C-8793-AFBDAFB8895B" name="CLIENTE_HISTORIAL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2BF32D03-AF0F-3186-D900-EF56BAAD1C65" name="PAIS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="41036B54-3F24-0C0C-5DCF-7735B003A6BB" name="VENDEDOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="47651899-5CDF-BA32-7914-C14E6ABDEB16" name="CLIENTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AB6A3717-32C1-67DC-E4C3-B31B29D711E2" name="ORDEN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D220A2B-5EB6-621A-9307-FD24DC6B8259" name="Relation_14" seqName="seg_0"/>
+   <object objectType="Relation" objectID="465BB1D8-3D20-7CE2-01C1-95AD9DF6FC07" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6A21F4D9-7F9F-6010-5071-B0A05CAEC0CC" name="Relation_15" seqName="seg_0"/>
+   <object objectType="Relation" objectID="730EAEBB-D740-9E8B-817F-5D6B7F878066" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="84555088-427D-96B4-70A7-CC6D8986FB5C" name="Relation_24" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CF61EF98-B6BE-C239-9FD7-BF12A50CBF75" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E13605D0-1113-19F9-0D2B-8816DF5672F7" name="Relation_26" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FBD00439-E3BD-0927-8A72-1B301665E179" name="Relation_4" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB6A3717-32C1-67DC-E4C3-B31B29D711E2" name="ORDEN">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:12:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="orderid" id="86652F69-D45F-D17C-D522-CD13488D285C">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:50:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderlineid" id="599B8331-1310-80BF-90DF-CFBB8431C9ED">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:49:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_id" id="256D8D0A-92BC-9873-9020-D46A6225B353">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:45:34 UTC</createdTime>
+<generatorID>6A21F4D9-7F9F-6010-5071-B0A05CAEC0CC</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>51398034-9B67-7AC3-1013-F943AF0AC275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="A4A26F62-34CA-DE80-28C4-7A09139CDDAD">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:50:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderdate" id="7BD79368-F4F7-408B-698D-129EF605B5A8">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:51:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customerid" id="84871DB9-F7A3-3680-36C1-34C810FFA6D4">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:45:05 UTC</createdTime>
+<generatorID>3D220A2B-5EB6-621A-9307-FD24DC6B8259</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>175173FC-3E80-2BF8-0829-DB577E757B40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="65495A0B-198F-8AC5-946A-DDDA31D8068D">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:51:58 UTC</createdTime>
+<generatorID>6A21F4D9-7F9F-6010-5071-B0A05CAEC0CC</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vendor_id" id="BCCE4781-872D-0CC2-D98A-0EC6D31085DC">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 19:03:45 UTC</createdTime>
+<generatorID>E13605D0-1113-19F9-0D2B-8816DF5672F7</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="true"/>
+</engineerTo>
+<referedAttribute>71C24E71-8E17-7EE5-2581-04F70611A48C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F220682-7489-D408-6D33-2131AF399C5D" name="ORDEN PK">
+<createdBy>Andy</createdBy>
+<createdTime>2015-10-26 18:49:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERPROY</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83CD60AF-DEAA-121A-B21F-8551A2E3E853" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>599B8331-1310-80BF-90DF-CFBB8431C9ED</attributeRef>
+<attributeRef>86652F69-D45F-D17C-D522-CD13488D285C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
